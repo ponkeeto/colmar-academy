@@ -1,0 +1,268 @@
+html{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    color: rgb(100, 100, 100);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+/*nav styles*/
+nav{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+#logo{
+    display: inline-flex;   
+    height: 2rem;
+    align-items: center;
+}
+
+nav #colmar{
+    font-weight: bold;
+    color: rgb(109, 21, 209);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+nav li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+nav a:hover{
+    color: rgb(109, 21, 209);
+    transition: color 0.5s;
+}
+
+/*hero styles*/
+.hero{
+    display: flex;
+    background-color: rgb(109, 21, 209);
+}
+
+.hero img{
+    width: 60%;
+    height: auto;
+    padding: 2rem 1.5rem;
+}
+
+.hero #hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    color: white;
+}
+
+.hero button {
+    width: 60%;
+    padding: 0.5rem 0;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(109, 21, 209);
+}
+
+.hero button:hover{
+    cursor: pointer;
+}
+
+.hero button:active{
+    color: white;
+    background-color: rgb(109, 21, 209);
+}
+
+/*content styles*/
+.content{
+    display: flex;
+}
+
+.content #main{
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.content #main img{
+    width: 100%;
+}
+
+.content ul{
+    list-style: none;
+    width: 40%;
+}
+
+.content li{
+    display: flex;
+    padding: 1rem;
+}
+
+.content a{
+    text-decoration: none;
+    color: rgb(109, 21, 209);
+}
+
+.content li:hover{
+    background-color: rgb(143, 143, 143);
+    color: white;
+    transition: color 1s, background-color 0.5s;
+}
+
+.content a:hover{
+    color: white;
+}
+
+.content #info img{
+    width: 35%;
+    height: auto;
+}
+
+.content #info .info{
+    padding: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info h3, .info h4, .info a{
+    margin: 0.5rem
+}
+
+/*courses styles*/
+.courses{
+    background-color: rgb(235, 235, 235);
+}
+
+.courses h1{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.courses ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 4.5rem;
+}
+
+.courses li{
+    width: 30%;
+    margin: 1rem;
+    background-color: white;
+}
+
+.courses img{
+    max-width: 100%;
+    height: auto;
+}
+
+.courses article{
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.courses h2, .courses h3, .courses h4{
+    margin: 0.5rem 0;
+}
+
+/*thesis styles*/
+.thesis{
+    width: 100%;
+}
+
+.thesis h1{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#thesis{
+    display: flex;
+}
+.thesis #main{
+    width: 60%;
+    padding: 1.5rem;
+}
+
+.thesis #main video{
+    width: 100%;
+    height:auto;
+}
+
+.thesis #main article {
+    margin-bottom: 2rem
+}
+
+.thesis ul{
+    width: 40%;
+    list-style: none;
+}
+
+.thesis li{
+    display: flex;
+    padding: 1rem;
+}
+
+.thesis li:hover{
+    background-color: rgb(109, 21, 209);
+    color: white;
+    transition: color 1s, background-color 0.5s;
+}
+
+.thesis li img{
+    width: 35%;
+    height: auto;
+}
+
+.thesis li article{
+    padding: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*footer styles*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: rgb(235, 235, 235);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer li{
+    margin: 1rem;
+}
